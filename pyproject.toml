@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "computational-physics"
 version = "0.1.0"
-description = ""
 authors = ["anthonynault"]
+description = "Promblems in Computationl Physics by Nicholas J. Girordano and Hisao Nakanishi"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/anthonynault/computational-physics"
+repository = "https://github.com/anthonynault/computational-physics"
+keywords = ["computational physics"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
