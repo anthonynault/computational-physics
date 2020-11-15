@@ -36,4 +36,7 @@ def radioactive_decay(nuclei: float, time: float = 0.0) -> dict[float, float]:
         remaining_nuclei = nuclei * (1 - dt)
         return radioactive_decay(remaining_nuclei, time + dt)
     
-results = radioactive_decay(nuclei=100.0, time=0.0)
+
+def main():   
+    data = radioactive_decay(nuclei=100.0, time=0.0)
+    
