@@ -11,8 +11,8 @@ keywords = ["computational physics"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-matplotlib = "^3.3.3"
 click = "^7.1.2"
+scipy = "^1.5.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.2"

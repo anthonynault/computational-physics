@@ -2,7 +2,7 @@ import click
 
 from . import __version__
 
-import 
+from computational_physics
 
 @click.command()
 @click.version_option(version=__version__)
